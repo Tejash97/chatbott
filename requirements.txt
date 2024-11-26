@@ -1,6 +1,5 @@
-streamlit 
-os
+langchain
+streamlit==1.40.2
 aisuite
 langchain_groq
-dotenv
-langchain
+python-dotenv

@@ -1,11 +1,11 @@
 import streamlit as st
-import os
 import aisuite as ai
 from langchain_groq import ChatGroq
+import os
 from dotenv import load_dotenv
 load_dotenv()
 
-GROQ_API_KEY = "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"
+os.environ["GROQ_API_KEY"] = "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"
 
 client = ai.Client()
 

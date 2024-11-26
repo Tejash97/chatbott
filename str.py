@@ -5,7 +5,7 @@ from langchain_groq import ChatGroq
 from dotenv import load_dotenv
 load_dotenv()
 
-groq_api_key = os.getenv('GROQ_API_KEY')
+groq_api_key = "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"
 
 client = ai.Client()
 
